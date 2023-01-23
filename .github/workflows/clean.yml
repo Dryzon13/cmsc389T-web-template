@@ -23,6 +23,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd cd /pub/jidiagbo
+            cd /pub/jidiagbo
             unalias rm
             rm -rf cmsc389T-web-template
